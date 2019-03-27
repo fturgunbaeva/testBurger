@@ -1,0 +1,168 @@
+body {
+    font-family: 'Shadows Into Light', cursive;    
+}
+.container {
+    background: grey;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* First box*/
+
+.box_one {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.box_one:hover {
+    box-shadow: 2px 2px 2px 5px rgb(0, 0, 0, 0.3);    
+}
+
+.box_one h2 {
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 350px    
+}
+
+.burger_box {
+    position: absolute;    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+    height: 280px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* styles for burger ingridients */
+
+.burger_up {
+    width: 140px;
+    height: 25px;
+    background: #FFA500;
+    border-radius: 15px 15px 0  0;
+    margin: 3px    
+}
+
+.burger_down {
+    width: 150px;
+    height: 33px;
+    background: #FFA500;
+    border-radius: 20px; 
+    margin: 2px   
+}
+
+.burger_salad {
+    width: 160px;
+    height: 10px;
+    background: #32CD32;
+    border-radius: 20px;
+    margin: 2px
+}
+
+.burger_meat {
+    width: 160px;
+    height: 15px;
+    background:#A52A2A;
+    border-radius: 20px;
+    margin: 2px
+}
+
+.burger_chiken {
+    width: 160px;
+    height: 15px;
+    background:#DEB887;
+    border-radius: 20px;
+    margin: 2px
+}
+
+
+/* Second box*/
+
+.box_two {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.box_two:hover {
+    box-shadow: 2px 2px 2px 5px rgb(0, 0, 0, 0.3);    
+}
+
+.box_price {
+    height: 100px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;        
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    font-size: 30px;   
+}
+
+.box_two h2 {
+    color: aliceblue;   
+    font-size: 30px;    
+}
+
+.price {    
+    background: #C0C0C0;    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box_buttons {
+    margin-bottom: 40px;     
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_buttons button {
+    background:#D3D3D3;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(17, 16, 15);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;    
+    border-radius: 5px;
+    cursor: pointer
+}
+.box_buttons #button_cancel {
+    background: #A52A2A
+
+}
+
+.box_buttons button:hover {
+    box-shadow: 2px 2px 2px 5px rgb(0, 0, 0, 0.3);    
+}
